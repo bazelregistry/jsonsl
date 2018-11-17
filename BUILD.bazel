@@ -1,0 +1,6 @@
+cc_library(
+	name = "jsonsl",
+	srcs = ["jsonsl.c"],
+	hdrs = ["jsonsl.h"],
+	visibility = ["//visibility:public"],
+)

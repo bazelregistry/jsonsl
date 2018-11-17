@@ -1,0 +1,47 @@
+cc_test(
+  name = "api_test",
+  srcs = ["api_test.c", "all-tests.h"],
+  deps = ["//:jsonsl"],
+)
+
+# cc_test(
+#   name = "cliopts",
+#   srcs = ["cliopts.c", "cliopts.h", "all-tests.h"],
+#   deps = ["//:jsonsl"],
+# )
+
+cc_test(
+  name = "cxxtest",
+  srcs = ["cxxtest.cpp", "all-tests.h"],
+  deps = ["//:jsonsl"],
+)
+
+# cc_test(
+#   name = "fail-tests",
+#   srcs = ["fail-tests.c", "all-tests.h"],
+#   deps = ["//:jsonsl"],
+# )
+
+cc_test(
+  name = "jpr_test",
+  srcs = ["jpr_test.c", "all-tests.h"],
+  deps = ["//:jsonsl"],
+)
+
+# cc_test(
+#   name = "json_test",
+#   srcs = ["json_test.c", "all-tests.h"],
+#   deps = ["//:jsonsl"],
+# )
+
+cc_test(
+  name = "match_test",
+  srcs = ["match_test.c", "all-tests.h"],
+  deps = ["//:jsonsl"],
+)
+
+cc_test(
+  name = "unescape",
+  srcs = ["unescape.c", "all-tests.h"],
+  deps = ["//:jsonsl"],
+)

@@ -55,3 +55,7 @@ tests/api_test
 tests/json_test
 tests/unescape
 tests/cxxtest
+
+# Added by bazelregistry
+/bazel-*
+/.vscode
